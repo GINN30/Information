@@ -1,5 +1,3 @@
-import $ from 'jquery';
-
 $(document).ready(function () {
     // Add active class when off-canvas menu is shown
     $('.off-canvas').on('show.bs.off-canvas', function () {
