@@ -1,4 +1,4 @@
-import $ from './node_modules/jquery/dist/jquery';
+import $ from 'jquery';
 
 $(document).ready(function () {
     // Add active class when off-canvas menu is shown
