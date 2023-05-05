@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap with Node.js</title>
+    <!-- include Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <!-- external self css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="off-canvas-wrapper">
+        <div id="off_canvas" class="off-canvas">
+            <!-- Navbar -->
+            <div class="off-canvas-nav bg-transparent">
+                <!-- You may use any of the bootstrap components here -->
+                <div class="nav nav-pills nav-fill flex-column">
+                    <a href="#" class="text-left nav-item nav-link active">Home</a>
+                    <a href="#" class="text-left nav-item nav-link">Profil Desa Bangsring</a>
+                    <a href="#" class="text-left nav-item nav-link">Destinasi Wisata Grand Watu Dodol</a>
+                    <a href="#" class="text-left nav-item nav-link">Destinasi Mutiara Pulau Tabuhan</a>
+                    <a href="#" class="text-left nav-item nav-link">Destinasi Bangsring Underwater</a>
+                </div>
+            </div>
+            <!-- OPTION: Adding 'overlay' class here will add overlay mask on the content -->
+            <div class="off-canvas-content overlay" data-target="#off_canvas">
+                <nav class="navbar navbar-dark bg-transparent">
+                    <button class="navbar-toggler off-canvas-toggler mx-2 border-dark" type="button"
+                        data-target="#off_canvas" aria-controls="offcanvasSupportedContent" aria-expanded="false"
+                        aria-label="Toggle off canvas menu">
+                        <span class="navbar-toggler-icon" id="toggler"></span>
+                    </button>
+                    <a class="navbar-brand ml-3 mr-auto text-black-50" href="#">
+                        <span class="text-dark">Desa</span> <span class="text-danger">Bangsring</span>
+                    </a>
+                </nav>
+                <div class="container"
+                    style="background-image: url('assets/satria-setiawan-pziaKacFYkw-unsplash.jpg');">
+                    <div class="row">
+                        <div class="col-md-9 h-100">
+                            <h1>Selamat Datang</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Main Content Here -->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            Main Content Here
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- include jQuery and Popper.js -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <!-- include Bootstrap JS -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- include your custom JavaScript -->
+    <script src="app.js"></script>
+</body>
+
+</html>
