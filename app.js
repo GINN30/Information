@@ -1,4 +1,4 @@
-import bootstrap from 'bootstrap'
+import bootstrap from 'bootstrap';
 
 $(function () {
     $('.off-canvas').on('show.bs.off-canvas', function () {
