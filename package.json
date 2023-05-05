@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "if [ \"$SKIP_PACKAGE_INSTALL\" = \"true\" ]; then echo \"Skipping package installation\"; else npm install; fi && npm run build",
+    "start": "npm run dev",
+    "dev": "webpack-dev-server --config webpack.config.js --mode development"
   },
   "author": "",
   "license": "ISC",
