@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website informasi</title>
+    <!-- include Bootstrap CSS -->
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <!-- external self css -->
+    <link rel="stylesheet" href="/style.css">
+    <!-- include your custom JavaScript -->
+    <script type="module" src="/app.js"></script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-nav-scroll bg-light sticky-lg-top">
+        <div class="container-fluid">
+            <a class="navbar-brand px-md-5" href="#">
+                <img src="/assets/LOGO BANGSRING.png" alt="..." height="50" style="margin-left: 50px;">
+            </a>
+            <button class="navbar-toggler border-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item px-2">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="profile.html">Profile Desa Bangsring</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="gwd.html">Destinasi Wisata Grand Watu Dodol</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="tabuhan.html">Destinasi Mutiara Pulau Tabuhan</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="bangsring.html">Destinasi Wisata Bangsring Under Water</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg-light">
+        <div class="container py-5">
+            <h2 class="text-center mb-4">Village Profile</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="village.jpg" class="img-fluid rounded mb-4" alt="Village">
+                </div>
+                <div class="col-md-6">
+                    <h3>About Our Village</h3>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius, risus in
+                        malesuada posuere, libero est hendrerit nisi, ac finibus leo justo eu ex. Nunc consequat nisi
+                        vitae elit ultricies, in auctor sapien pretium. Nullam nec mi dui. Pellentesque habitant morbi
+                        tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                    <ul class="list-group mb-3">
+                        <li class="list-group-item"><strong>Population:</strong> 5,000</li>
+                        <li class="list-group-item"><strong>Area:</strong> 100 sq km</li>
+                        <li class="list-group-item"><strong>Location:</strong> Province, Country</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <hr class="my-4">
+
+    <section id="aspek-section" class="mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://via.placeholder.com/350x200" alt="SDA Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Aspek SDA</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel mauris
+                                mauris.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://via.placeholder.com/350x200" alt="SDM Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Aspek SDM</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel mauris
+                                mauris.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://via.placeholder.com/350x200" alt="Sosial Budaya Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Aspek Sosial Budaya</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel mauris
+                                mauris.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="map-section" class="mb-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 px-0">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.045889323288!2d-118.24231038481056!3d34.053691326213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c6a31cccaa27%3A0x3e44fcb04b0f568!2sSanta%20Monica%20Pier!5e0!3m2!1sen!2sus!4v1620290631388!5m2!1sen!2sus"
+                        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" class="px-3">
+                    </iframe>
+                </div>
+                <div class="col-lg-6 bg-light p-5">
+                    <h2 class="mb-4">Village Map</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel mauris mauris. Pellentesque
+                        habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                    <p>Mauris quis elit eget elit elementum feugiat. Nam sit amet ipsum quis purus pretium imperdiet.
+                        Aliquam lacinia efficitur lectus, sed rutrum enim interdum non.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-light">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-3 mb-3 mb-md-0">
+                    <img src="logo.png" alt="Logo" width="150">
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col-md-3 mb-3 mb-md-0">
+                    <h5 class="mb-3">Address</h5>
+                    <p class="text-muted">123 Main St<br>Anytown, USA 12345</p>
+                </div>
+                <div class="col-md-3 mb-3 mb-md-0">
+                    <h5 class="mb-3">Social Media</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-muted"><i class="bi bi-facebook me-2"></i>Facebook</a></li>
+                        <li><a href="#" class="text-muted"><i class="bi bi-twitter me-2"></i>Twitter</a></li>
+                        <li><a href="#" class="text-muted"><i class="bi bi-instagram me-2"></i>Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-3 mb-md-0">
+                    <h5 class="mb-3">Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="tel:1234567890" class="text-muted"><i
+                                    class="bi bi-telephone me-2"></i>123-456-7890</a></li>
+                        <li><a href="mailto:info@example.com" class="text-muted"><i
+                                    class="bi bi-envelope me-2"></i>info@example.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- include jQuery and Popper.js -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <!-- include Bootstrap JS -->
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <!-- Lightbox script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+</body>
+
+</html>
