@@ -1,12 +1,21 @@
-var accordionButtons = document.querySelectorAll('.accordion-button');
-
-accordionButtons.forEach(function (button) {
-    button.addEventListener('click', function () {
-        accordionButtons.forEach(function (otherButton) {
-            if (otherButton !== button) {
-                otherButton.classList.remove('active');
-            }
+// Add hover style
+$(function () {
+    $('.navbar-nav li').hover(function () {
+        $(this).find('a').css({
+            color: '#fff',
+            backgroundColor: '#19bfec',
         });
-        button.classList.toggle('active');
+    }, function () {
+        $(this).find('a').css({
+            color: '',
+            backgroundColor: ''
+        });
+    });
+});
+
+// Add active style
+$(function () {
+    $('.navbar-nav li').click(function () {
+        $(this).addClass('active').siblings().removeClass('active');
     });
 });
