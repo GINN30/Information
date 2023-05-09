@@ -20,82 +20,132 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-nav-scroll bg-light sticky-lg-top">
         <div class="container-fluid">
-            <a class="navbar-brand px-md-5" href="#">
-                <img src="/assets/LOGO BANGSRING.png" alt="..." height="50" style="margin-left: 50px;">
-            </a>
-            <button class="navbar-toggler border-dark" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item px-2">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a class="nav-link" href="profile.html">Profile Desa Bangsring</a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a class="nav-link" href="gwd.html">Destinasi Wisata Grand Watu Dodol</a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a class="nav-link" href="tabuhan.html">Destinasi Mutiara Pulau Tabuhan</a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a class="nav-link" href="bangsring.html">Destinasi Wisata Bangsring Under Water</a>
-                    </li>
-                </ul>
+            <div class="d-flex mx-2">
+                <a class="navbar-brand px-md-2" href="#">
+                    <img src="/assets/LOGO BANGSRING.png" alt="logo_desa" height="50>">
+                </a>
+                <a class="navbar-brand px-md-2" href="">
+                    <img class="" src="assets/11zon_cropped.png" height="50" alt="logo_kknt">
+                </a>
+                <!-- <div class="container">
+                    <span class="text-uppercase px-md-4 fw-bold">Official Site Desa Bangsring</span>
+
+                </div> -->
+            </div>
+            <div class="d-block" style="margin-right: 170px;">
+                <span class="text-uppercase fw-bold">Official Site Desa Bangsring</span>
+            </div>
+            <div class="d-block">
+                <button class="navbar-toggler border-dark" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon  justify-content-end"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-2">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="profile.html">Profile Desa</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="gwd.html"> Wisata Grand Watu Dodol</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="tabuhan.html">Destinasi Mutiara Pulau Tabuhan</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="bangsring.html">Wisata Bangsring Under Water</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
 
     <header>
-        <div class="container-fluid position-relative" id="banner-image" style="height: 90vh;">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h1 class="text-white">Selamat Datang di</h1>
-                    <p class="text-white mt-md-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis minus
-                        impedit consequuntur
-                        molestiae dignissimos. Cupiditate, cumque accusantium, e
-                    </p>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="9000">
+                    <div class="overlay"></div>
+                    <img src="/assets/gratisography-101H-free-stock-photo.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
                 </div>
-                <div class="position-absolute start-0 bottom-0 p-2">
-                    <img class="" src="assets/11zon_cropped.png" alt="logo_kknt" width="80px">
+                <div class="carousel-item">
+                    <div class="overlay"></div>
+                    <img src="/assets/usgs-ZpC7sJVovLM-unsplash.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Selamat Datang di Desa Bangsring</h5>
+                        <p>Desa Bangsring merupakan salah satu desa yang berada di wilayah Kecamatan Wongsorejo,
+                            Kabupaten Banyuwangi, Provinsi Jawa Timur, Indonesia.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="9000">
+                    <div class="overlay"></div>
+                    <img src="/assets/usgs-3g8h009WY3Q-unsplash.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
                 </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </header>
 
     <section>
         <div class="container mt-4">
             <div class="row">
-                <div class="col-md-4 mb-3">
+                <div class="col-md-6 mb-3">
                     <div class="card icon-box card-hover shadow">
                         <div class="card-body">
-                            <h5 class="card-title">Team Building</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit
-                                condimentum turpis, eu bibendum mi rhoncus ac.</p>
+                            <h5 class="card-title">KKN-T Desa Bangsring Team</h5>
+                            <ul class="card-text list-group">
+                                <li class="list-group-item">Item 1</li>
+                                <li class="list-group-item">Item 2</li>
+                                <li class="list-group-item">Item 3</li>
+                            </ul>
                         </div>
                         <i class="bi bi-people display-5 px-2 pb-3 text-end"></i>
                     </div>
                 </div>
-                <div class="col-md-4 mb-3">
-                    <div class="card icon-box card-hover shadow">
-                        <div class="card-body">
-                            <h5 class="card-title">Creative Solutions</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit
-                                condimentum turpis, eu bibendum mi rhoncus ac.</p>
-                        </div>
-                        <i class="bi bi-lightbulb display-5 px-2 pb-3 text-end"></i>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-3">
+                <div class="col-md-6 mb-3">
                     <div class="card icon-box card-hover shadow mx-2">
                         <div class="card-body">
-                            <h5 class="card-title">Award Winning</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit
-                                condimentum turpis, eu bibendum mi rhoncus ac.</p>
+                            <h5 class="card-title">Penghargaan</h5>
+                            <ul class="card-text list-group">
+                                <li class="list-group-item"><i class="bi-dot"></i>500 Besar Anugerah Desa Wisata
+                                    Indonesia 2023</li>
+                                <li class="list-group-item"><i class="bi-dot"></i>East Java Tourism Award (EJTA 2022) -
+                                    Juara1 Lomba Video Profil Desa Wisata Jawa Timur
+                                    dan Penghargaan Nominasi Desa Wisata</li>
+                                <li class="list-group-item"><i class="bi-dot"></i>East Java Tourism Award (EJTA) 2021 -
+                                    Terbaik 2 Kategori Daya Tarik Wisata Alam</li>
+                                <li class="list-group-item"><i class="bi-dot"></i>Trisakti Tourism Award 2021 - Desa
+                                    Wisata Kreatif, Kecamatan Wongsorejo dengan
+                                    Bangsring Underwater-nya</li>
+                            </ul>
                         </div>
                         <i class="bi bi-award display-5 px-2 pb-3 text-end"></i>
                     </div>
@@ -104,94 +154,153 @@
         </div>
     </section>
 
-    <hr class="my-4">
+    <hr class="my-4 fw-bold border-bottom" style="color: #083b4a;">
 
     <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-start mb-3">
-                    <span class="fs-3">Daya Tarik <span
-                            class="text-decoration-underline text-success fst-italic fs-3">Wisata</span> Desa
-                        Bangsring</span>
-                </div>
+        <div class="container-fluid">
+            <div class="mb-3">
+                <span class="fs-3 mx-4 fw-semibold">Daya Tarik <span class="fs-3" style="color: #19bfec;">Wisata</span>
+                    Desa
+                    Bangsring</span>
             </div>
             <!-- Small card pictures -->
-            <div class="row row-cols-2 row-cols-md-4 g-4 mb-3">
-                <div class="col">
-                    <div class="card">
-                        <a href="image1.jpg" data-lightbox="image-set"><img
-                                src="assets/gratisogarphy-lake-reeds-shore-free-stock-photo.jpg" class="card-img-top"
-                                alt="..."></a>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+            <div class="container">
+                <div class="row row-cols-2 row-cols-md-4 g-4 mb-3">
+                    <div class="col">
+                        <div class="card h-100">
+                            <a href="image1.jpg" data-lightbox="image-set"><img
+                                    src="assets/gratisogarphy-lake-reeds-shore-free-stock-photo.jpg"
+                                    class="card-img-top" alt="..."></a>
+                            <p class="card-text">Grand Watudodol</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <a href="image2.jpg" data-lightbox="image-set"><img
-                                src="assets/gratisography-101H-free-stock-photo.jpg" class="card-img-top" alt="..."></a>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                    <div class="col">
+                        <div class="card h-100">
+                            <a href="image2.jpg" data-lightbox="image-set"><img
+                                    src="assets/gratisography-101H-free-stock-photo.jpg" class="card-img-top"
+                                    alt="..."></a>
+                            <p class="card-text">Bangsring Underwater</p>
 
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <a href="image3.jpg" data-lightbox="image-set"><img
-                                src="assets/gratisography-canoe-black-and-white.jpg" class="card-img-top" alt="..."></a>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                    <div class="col">
+                        <div class="card h-100">
+                            <a href="image3.jpg" data-lightbox="image-set"><img
+                                    src="assets/gratisography-canoe-black-and-white.jpg" class="card-img-top"
+                                    alt="..."></a>
+                            <p class="card-text">Mutiara Pulau Tabuhan</p>
 
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <a href="image3.jpg" data-lightbox="image-set"><img
-                                src="assets/gratisography-mountains-scenic-horizon-free-stock-photo.jpg"
-                                class="card-img-top" alt="..."></a>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                    <div class="col">
+                        <div class="card h-100">
+                            <a href="image3.jpg" data-lightbox="image-set"><img
+                                    src="assets/gratisography-mountains-scenic-horizon-free-stock-photo.jpg"
+                                    class="card-img-top" alt="..."></a>
+                            <p class="card-text">Bangsring Breeze Resort</p>
+                        </div>
                     </div>
+                    <!-- More card pictures here -->
                 </div>
-                <!-- More card pictures here -->
             </div>
+            <div class="mt-5 mb-3">
+                <span class="fs-3 mx-4 fw-semibold">Daya Tarik <span class="fs-3" style="color: #19bfec;">Wisata</span>
+                    Desa
+                    Bangsring</span>
+            </div>
+            <div class="container">
+                <div class="row row-cols-2 row-cols-md-4 g-4 mb-3">
+                    <div class="col">
+                        <div class="card h-100">
+                            <a href="image1.jpg" data-lightbox="image-set"><img
+                                    src="assets/gratisogarphy-lake-reeds-shore-free-stock-photo.jpg"
+                                    class="card-img-top" alt="..."></a>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <a href="image2.jpg" data-lightbox="image-set"><img
+                                    src="assets/gratisography-101H-free-stock-photo.jpg" class="card-img-top"
+                                    alt="..."></a>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
 
-            <div class="row row-cols-2 row-cols-md-4 g-4 mt-4 mb-3">
-                <div class="col">
-                    <div class="card">
-                        <a href="image1.jpg" data-lightbox="image-set"><img
-                                src="assets/gratisogarphy-lake-reeds-shore-free-stock-photo.jpg" class="card-img-top"
-                                alt="..."></a>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <a href="image2.jpg" data-lightbox="image-set"><img
-                                src="assets/gratisography-101H-free-stock-photo.jpg" class="card-img-top" alt="..."></a>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                    <div class="col">
+                        <div class="card h-100">
+                            <a href="image3.jpg" data-lightbox="image-set"><img
+                                    src="assets/gratisography-canoe-black-and-white.jpg" class="card-img-top"
+                                    alt="..."></a>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
 
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <a href="image3.jpg" data-lightbox="image-set"><img
-                                src="assets/gratisography-canoe-black-and-white.jpg" class="card-img-top" alt="..."></a>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
-
+                    <div class="col">
+                        <div class="card h-100">
+                            <a href="image3.jpg" data-lightbox="image-set"><img
+                                    src="assets/gratisography-mountains-scenic-horizon-free-stock-photo.jpg"
+                                    class="card-img-top" alt="..."></a>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                        </div>
                     </div>
+                    <!-- More card pictures here -->
                 </div>
-                <div class="col">
-                    <div class="card">
-                        <a href="image3.jpg" data-lightbox="image-set"><img
-                                src="assets/gratisography-mountains-scenic-horizon-free-stock-photo.jpg"
-                                class="card-img-top" alt="..."></a>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
-                    </div>
-                </div>
-                <!-- More card pictures here -->
             </div>
             <hr class="separator mx-auto w-25">
         </div>
     </section>
 
     <section>
+        <div class="container mb-5">
+            <div class="container border-3 border-bottom mb-3">
+                <span class="fw-semibold fs-2">Berita <span class="fs-3" style="color: #19bfec;">Terkini</span></span>
+            </div>
+            <div class="row mt-2">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-0">
+                        <img src="/assets/usgs-ZpC7sJVovLM-unsplash.jpg" class="card-img-top" alt="News 1">
+                        <div class="card-body">
+                            <h5 class="card-title">News 1</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident
+                                incidunt atque sunt harum commodi facere enim voluptatum nisi temporibus, sequi illo vel
+                                quae. Temporibus quas distinctio sequi nisi dolorum explicabo!</p>
+                            <a href="news-1.html" class="text-dark">Selengkapnya<i class="bi bi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-0">
+                        <img src="/assets/usgs-jePzo7RYzac-unsplash.jpg" class="card-img-top" alt="News 2">
+                        <div class="card-body">
+                            <h5 class="card-title">News 2</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, eos
+                                quisquam optio dolores nesciunt porro tempore numquam aut quibusdam voluptate provident.
+                                Porro aperiam nemo quisquam, quos in sunt incidunt facere!</p>
+                            <a href="news-2.html" class="text-dark">Selengkapnya<i class="bi bi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-0">
+                        <img src="assets/usgs-Jd09hiCUPCs-unsplash.jpg" class="card-img-top" alt="News 3">
+                        <div class="card-body">
+                            <h5 class="card-title">News 3</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
+                                neque blanditiis atque iste nobis reprehenderit, hic vero est tempora ipsum ab vel
+                                voluptate facilis soluta corporis iusto ullam excepturi similique!</p>
+                            <a href="news-3.html" class="text-dark">Selengkapnya<i class="bi bi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="more-news.html" class="btn btn-outline-primary btn-sm">Berita Lainya </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section>
         <div class="container mt-5">
             <div class="accordion" id="faq-accordion">
                 <div class="row">
@@ -283,35 +392,36 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <footer class="bg-light">
         <div class="container py-5">
             <div class="row">
                 <div class="col-md-3 mb-3 mb-md-0">
-                    <img src="logo.png" alt="Logo" width="150">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <!-- <img src="logo.png" alt="Logo" width="150"> -->
+                    <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                         incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div class="col-md-3 mb-3 mb-md-0">
-                    <h5 class="mb-3">Address</h5>
-                    <p class="text-muted">123 Main St<br>Anytown, USA 12345</p>
+                    <h5 class="mb-3">Alamat Kantor Desa</h5>
+                    <p class="text-dark">Jl. PB. Sudirman, Dusun Krajan 1, RT 03/ RW 05<br>Desa Bangsring, Kecamatan
+                        Wongsorejo, Kabupaten Banyuwangi, Jawa Timur, 68453.</p>
                 </div>
                 <div class="col-md-3 mb-3 mb-md-0">
-                    <h5 class="mb-3">Social Media</h5>
+                    <h5 class="mb-3">Media Sosial</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-muted"><i class="bi bi-facebook me-2"></i>Facebook</a></li>
-                        <li><a href="#" class="text-muted"><i class="bi bi-twitter me-2"></i>Twitter</a></li>
-                        <li><a href="#" class="text-muted"><i class="bi bi-instagram me-2"></i>Instagram</a></li>
+                        <li><a href="https://facebook.com/kantor.bangsring" class="text-dark text-decoration-none"><i class="bi bi-facebook me-2"></i>Facebook</a></li>
+                        <li><a href="https://instagram.com/pemdes_bangsring?igshid=NTc4MTIwNjQ2YQ" class="text-decoration-none text-dark"><i class="bi bi-instagram me-2"></i>Twitter</a></li>
+                        <li><a href="https://youtu.be/_tJCQzG9Bul" class="text-decoration-none text-dark"><i class="bi bi-youtube me-2"></i>Instagram</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3 mb-3 mb-md-0">
-                    <h5 class="mb-3">Contact Us</h5>
+                    <h5 class="mb-3">Hubungi Kami</h5>
                     <ul class="list-unstyled">
-                        <li><a href="tel:1234567890" class="text-muted"><i
+                        <li><a href="tel:1234567890" class="text-dark text-decoration-none"><i
                                     class="bi bi-telephone me-2"></i>123-456-7890</a></li>
-                        <li><a href="mailto:info@example.com" class="text-muted"><i
-                                    class="bi bi-envelope me-2"></i>info@example.com</a></li>
+                        <li><a href="mailto:info@example.com" class="text-dark text-decoration-none"><i
+                                    class="bi bi-envelope me-2"></i>desabangsring001@gmail.com</a></li>
                     </ul>
                 </div>
             </div>
@@ -325,7 +435,7 @@
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <!-- Lightbox script -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script> -->
 </body>
 
 </html>
