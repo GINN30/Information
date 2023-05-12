@@ -1,6 +1,23 @@
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+h1,
+p,
+span,
+h2,
+h3,
+h4,
+h5,
+h6,
+div {
+    font-family: 'Oxygen', sans-serif;
+}
+
 .carousel-item img {
-    height: 500px;
+    height: 400px;
     object-fit: cover;
+    image-rendering: pixelated;
 }
 
 .overlay {
