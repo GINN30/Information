@@ -49,3 +49,13 @@ div {
     background-color: #19bfec;
     color: #dde7f2;
 }
+
+#smallCard {
+    height: 100%;
+}
+
+#img-top {
+    height: 200px;
+    /* Adjust the desired height */
+    object-fit: cover;
+}
