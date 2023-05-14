@@ -58,3 +58,9 @@ div {
     /* Adjust the desired height */
     object-fit: cover;
 }
+
+.circle-image {
+    width: 500px;
+    height: 450px;
+    border-radius: 50%;
+}
